@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap 101 Template</title>
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+
+
+
+
+
+
+
+
+      <style>
+
+        .main-menu {
+          border-radius:10px;
+          width: 180px;
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+
+        .main-menu a {
+          background:#F9F9F9;
+          display: block;
+          margin-bottom: -1px;
+          padding: 8px 14px;
+          color: #0088CC;
+          text-decoration: none;
+          border: 1px solid #E5E5E5;
+
+        }
+
+        .main-menu .hov:hover {
+          background: #F5F5F5;
+        }
+
+        .main-menu > li {
+
+        }
+
+        .main-menu .category{
+
+          width:182px;
+          font-weight:bold;
+          box-shadow:
+          0 1px 4px rgba(0, 0, 0, .3),
+          -23px 0 20px -23px rgba(0, 0, 0, .8),
+          23px 0 20px -23px rgba(0, 0, 0, .8),
+          0 0 40px rgba(0, 0, 0, .1) inset;
+        }
+        .category a{
+          color:black;
+          background:white;
+        }
+        .utf-8 {
+          font-size: 20px;
+          font-weight: bold;
+          /*line-height: 45px;*/
+        }
+        /* Подменю */
+
+        .main-menu .sub-menu {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          background: #FCF8E3;
+        }
+      </style>
+
+
+      <div class="catalog_block">
+        <ul class="main-menu">
+          <li class="category"><a href="#company"><span class="utf-8" href="#">☰</span>&nbsp&nbspКаталог</a></li>
+
+          <li><a class="hov" href="/novosti-2">Быть в курсе!</a></li>
+
+            <li><a class="hov" href="/brendy">Новинки</a></li>
+            <li><a class="hov" href="/sumki">Сумки</a></li>
+            <li><a class="hov" href="/portfeli">Портфели</a></li>
+
+
+          <li><a class="hov" href="/barsetki">Барсетки</a></li>
+          <li><a  class="hov" href="/koshelki">Кошельки</a></li>
+
+          <li><a class="hov" href="/portmone">Портмоне</a></li>
+          <li><a  class="hov" href="/oblozhki">Обложки</a></li>
+          <li><a class="hov" href="/vizitnitsy">Визитницы</a></li>
+          <li><a  class="hov" href="/remni">Ремни</a></li>
+
+          <li><a class="hov" href="/kosmetichki">Косметички</a></li>
+          <li><a  class="hov" href="/chemodany">Чемоданы</a></li>
+          <li><a class="hov" href="/brifkejsy">Брифкейсы</a></li>
+          <li><a  class="hov" href="/ryukzaki">Рюкзаки</a></li>
+
+          <li><a class="hov" href="/dorozhnye-sumki">Дорожные сумки</a></li>
+          <li><a  class="hov" href="/klyuchnitsy">Ключницы</a></li>
+          <li><a class="hov" href="/wanlima-akzii">Наши Акции</a></li>
+          <li><a  class="hov" href="/interesno">Интересно</a></li>
+
+          <li><a class="hov" href="/oplta-i-dostavka">Оплата и доставка</a></li>
+          <li><a  class="hov" href="/tovary-so-skidkami">Товары со скидками</a></li>
+          <li><a class="hov" href="http://lepka.biz/index.php/gipsovaya-lepnina">Гипсовая лепнина</a></li>
+          <li><a  class="hov" href="http://vikonce.kiev.ua/">Балконы под ключ Киев</a></li>
+        </ul>
+      </div>
+
+
+
+<!-- <div class="katalog_menu">
+<ul class="menu ">
+  
+<li class="item-250 katalog_menu_li">
+  <a href="/novosti-2">
+    <img src="/images/catalog-icons/koshelek.png" alt="Быть в курсе!">
+    <span class="image-title">Быть в курсе!</span> 
+  </a>
+  </li>
+  <li class="item-236 katalog_menu_li">
+    <a href="/brendy">
+    <img src="/images/catalog-icons/vizitnica.png" alt="Новинки">
+    <span class="image-title">Новинки</span>
+    </a>
+  </li>
+  <li class="item-124 parent katalog_menu_li"><a href="/sumki">
+  <img src="/images/catalog-icons/sumki.png" alt="Сумки">
+  <span class="image-title">Сумки</span> </a>
+  </li><li class="item-125 katalog_menu_li"><a href="/portfeli">
+  <img src="/images/catalog-icons/portfeli.png" alt="Портфели">
+  <span class="image-title">Портфели</span> </a>
+  </li>
+  <li class="item-126 katalog_menu_li"><a href="/barsetki">
+    <img src="/images/catalog-icons/barsetki.png" alt="Барсетки">
+    <span class="image-title">Барсетки</span>
+    </a>
+  </li>
+  <li class="item-127 katalog_menu_li"><a href="/koshelki">
+  <img src="/images/catalog-icons/koshelek.png" alt="Кошельки">
+    <span class="image-title">Кошельки</span>
+    </a>
+  </li>
+  <li class="item-128 katalog_menu_li"><a href="/portmone">
+    <img src="/images/catalog-icons/portmone.png" alt="Портмоне">
+    <span class="image-title">Портмоне</span> 
+    </a>
+  </li>
+  <li class="item-129 katalog_menu_li">
+    <a href="/oblozhki">
+      <img src="/images/catalog-icons/oblojki.png" alt="Обложки">
+      <span class="image-title">Обложки</span> 
+    </a></li><li class="item-130 katalog_menu_li">
+  <a href="/vizitnitsy">
+    <img src="/images/catalog-icons/vizitnica.png" alt="Визитницы">
+    <span class="image-title">Визитницы</span> 
+  </a>
+  </li>
+  <li class="item-131 katalog_menu_li">
+    <a href="/remni">
+      <img src="/images/catalog-icons/remni.png" alt="Ремни">
+      <span class="image-title">Ремни</span> 
+    </a></li><li class="item-132 katalog_menu_li">
+  <a href="/kosmetichki">
+    <img src="/images/catalog-icons/kosmetichki.png" alt="Косметички">
+    <span class="image-title">Косметички</span> 
+  </a>
+  </li>
+  <li class="item-133 katalog_menu_li">
+    <a href="/chemodany">
+      <img src="/images/catalog-icons/chemodan.png" alt="Чемоданы">
+      <span class="image-title">Чемоданы</span>
+    </a>
+  </li>
+  <li class="item-134 katalog_menu_li">
+    <a href="/brifkejsy">
+      <img src="/images/catalog-icons/brifkeys.png" alt="Брифкейсы">
+      <span class="image-title">Брифкейсы</span> 
+    </a></li><li class="item-135 katalog_menu_li">
+  <a href="/ryukzaki">
+    <img src="/images/catalog-icons/ryukzaki.png" alt="Рюкзаки">
+    <span class="image-title">Рюкзаки</span> 
+  </a></li>
+  <li class="item-136 katalog_menu_li">
+    <a href="/dorozhnye-sumki">
+      <img src="/images/catalog-icons/dorojnie-kosmetichki.png" alt="Дорожные сумки">
+      <span class="image-title">Дорожные сумки</span> 
+    </a>
+  </li>
+  <li class="item-218 katalog_menu_li">
+  <a href="/klyuchnitsy">
+    <img src="/images/catalog-icons/koshelek.png" alt="Ключницы">
+    <span class="image-title">Ключницы</span> 
+    </a>
+  </li>
+  <li class="item-207 parent katalog_menu_li">
+    <a href="/wanlima-akzii">
+  <img src="/images/social-icons/mail.png" alt="Наши Акции">
+      <span class="image-title">Наши Акции</span> 
+  </a></li>
+  <li class="item-208 parent katalog_menu_li"><a href="/interesno">
+    <img src="/images/catalog-icons/vizitnica.png" alt="Интересно">
+    <span class="image-title">Интересно</span> 
+    </a>
+  </li>
+  <li class="item-211 katalog_menu_li">
+    <a href="/oplta-i-dostavka">
+      <img src="/images/catalog-icons/vizitnica.png" alt="Оплата и доставка">
+      <span class="image-title">Оплата и доставка</span> 
+    </a>
+  </li>
+  <li class="item-219 katalog_menu_li">
+    <a href="/tovary-so-skidkami">
+      <img src="/images/catalog-icons/vizitnica.png" alt="Товары со скидками">
+      <span class="image-title">Товары со скидками</span>
+    </a>
+  </li>
+  <li class="item-237 katalog_menu_li">
+    <a href="http://lepka.biz/index.php/gipsovaya-lepnina">
+      <img src="/images/catalog-icons/vizitnica.png" alt="Гипсовая лепнина"><span class="image-title">Гипсовая лепнина</span>
+    </a></li><li class="item-251 katalog_menu_li">
+  <a href="http://vikonce.kiev.ua/">
+    <img src="/images/catalog-icons/vizitnica.png" alt="Балконы под ключ Киев">
+    <span class="image-title">Балконы под ключ Киев</span> 
+  </a>
+  </li>
+</ul>
+</div> -->
+
+
+</body>
+
+
+
+
